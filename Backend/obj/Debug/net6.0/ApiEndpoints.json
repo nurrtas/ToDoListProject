@@ -1,87 +1,31 @@
 [
   {
-    "ContainingType": "TodoList.BackApp.TodoEntities.Entities.EntityConfigurations.TodoApplication.Application.Controllers.AuthController",
+    "ContainingType": "TodoList.BackApp.TodoApplication.Application.Controllers.AuthController",
     "Method": "Login",
-    "RelativePath": "Api/Auth/Login",
+    "RelativePath": "api/Auth/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "model",
-        "Type": "TodoList.BackApp.TodoEntities.ItemDtos.LoginItemDto",
+        "Type": "TodoList.BackApp.TodoApplication.TodoEntities.ItemDtos.LoginItemDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "TodoList.BackApp.TodoEntities.ItemDtos.TokenResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 401
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "TodoList.BackApp.TodoEntities.Entities.EntityConfigurations.TodoApplication.Application.Controllers.AuthController",
+    "ContainingType": "TodoList.BackApp.TodoApplication.Application.Controllers.AuthController",
     "Method": "Register",
-    "RelativePath": "Api/Auth/Register",
+    "RelativePath": "api/Auth/register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "model",
-        "Type": "TodoList.BackApp.TodoEntities.ItemDtos.RegisterItemDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TodoItemsController",
-    "Method": "PutTodoItem",
-    "RelativePath": "Api/Todo/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "todoItem",
-        "Type": "TodoList.BackApp.TodoEntities.Entities.TodoItem",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TodoItemsController",
-    "Method": "DeleteTodoItem",
-    "RelativePath": "Api/Todo/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Type": "TodoList.BackApp.TodoApplication.TodoEntities.ItemDtos.RegisterItemDto",
         "IsRequired": true
       }
     ],
@@ -97,13 +41,13 @@
     "Parameters": [
       {
         "Name": "command",
-        "Type": "TodoList.BackApp.TodoEntities.Entities.EntityConfigurations.TodoApplication.Application.CommandHandlers.CreateTodoItemCommand",
+        "Type": "TodoList.BackApp.TodoApplication.Application.CommandHandlers.CreateTodoItemCommand",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "TodoList.BackApp.TodoEntities.Entities.TodoItem",
+        "Type": "TodoList.BackApp.TodoApplication.TodoEntities.Entities.TodoItemEntity",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -112,6 +56,22 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "TodoItemsController",
+    "Method": "DeleteTodoItem",
+    "RelativePath": "Api/Todo/Delete{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "TodoItemsController",
@@ -139,7 +99,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "TodoList.BackApp.TodoEntities.Entities.TodoItem",
+        "Type": "TodoList.BackApp.TodoApplication.TodoEntities.Entities.TodoItemEntity",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -148,5 +108,26 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "TodoItemsController",
+    "Method": "PutTodoItem",
+    "RelativePath": "Api/Todo/Update{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "todoItem",
+        "Type": "TodoList.BackApp.TodoApplication.TodoEntities.Entities.TodoItemEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

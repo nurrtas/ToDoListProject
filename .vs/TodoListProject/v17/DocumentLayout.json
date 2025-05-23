@@ -1,0 +1,297 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|c:\\users\\lenovo\\source\\repos\\todoitemsapp\\backend\\backapp\\todoapplication\\application\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|solutionrelative:backend\\backapp\\todoapplication\\application\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|c:\\users\\lenovo\\source\\repos\\todoitemsapp\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|c:\\users\\lenovo\\source\\repos\\todoitemsapp\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|c:\\users\\lenovo\\source\\repos\\todoitemsapp\\backend\\backapp\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|solutionrelative:backend\\backapp\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|c:\\users\\lenovo\\source\\repos\\todoitemsapp\\backend\\backapp\\todoapplication\\todoentities\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|solutionrelative:backend\\backapp\\todoapplication\\todoentities\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|c:\\users\\lenovo\\source\\repos\\todoitemsapp\\backend\\backapp\\todoapplication\\todoentities\\dtos\\registeritemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|solutionrelative:backend\\backapp\\todoapplication\\todoentities\\dtos\\registeritemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|c:\\users\\lenovo\\source\\repos\\todoitemsapp\\backend\\backapp\\todoapplication\\todoentities\\entities\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|solutionrelative:backend\\backapp\\todoapplication\\todoentities\\entities\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|c:\\users\\lenovo\\source\\repos\\todoitemsapp\\backend\\backapp\\todoapplication\\todoentities\\dtos\\loginitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|solutionrelative:backend\\backapp\\todoapplication\\todoentities\\dtos\\loginitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|c:\\users\\lenovo\\source\\repos\\todoitemsapp\\backend\\backapp\\todoapplication\\todoentities\\entities\\todoitementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|solutionrelative:backend\\backapp\\todoapplication\\todoentities\\entities\\todoitementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|c:\\users\\lenovo\\source\\repos\\todoitemsapp\\backend\\backapp\\todoapplication\\todoentities\\enums\\prioritylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|solutionrelative:backend\\backapp\\todoapplication\\todoentities\\enums\\prioritylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|c:\\users\\lenovo\\source\\repos\\todoitemsapp\\backend\\backapp\\todoapplication\\todoentities\\repositories\\todoitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|solutionrelative:backend\\backapp\\todoapplication\\todoentities\\repositories\\todoitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|c:\\users\\lenovo\\source\\repos\\todoitemsapp\\backend\\backapp\\todoapplication\\todoentities\\repositories\\itodoitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|solutionrelative:backend\\backapp\\todoapplication\\todoentities\\repositories\\itodoitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|c:\\users\\lenovo\\source\\repos\\todoitemsapp\\backend\\backapp\\todoapplication\\application\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|solutionrelative:backend\\backapp\\todoapplication\\application\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|c:\\users\\lenovo\\source\\repos\\todoitemsapp\\backend\\backapp\\todoapplication\\todoentities\\dtos\\getalltodoitemsrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|solutionrelative:backend\\backapp\\todoapplication\\todoentities\\dtos\\getalltodoitemsrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|c:\\users\\lenovo\\source\\repos\\todoitemsapp\\backend\\backapp\\todoapplication\\application\\queryhandlers\\getalltodoitemsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|solutionrelative:backend\\backapp\\todoapplication\\application\\queryhandlers\\getalltodoitemsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|c:\\users\\lenovo\\source\\repos\\todoitemsapp\\backend\\backapp\\todoapplication\\application\\queryhandlers\\gettodoitembyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE3EC95-A0C6-47C5-BD38-568EA9203A12}|Backend\\TodoList.csproj|solutionrelative:backend\\backapp\\todoapplication\\application\\queryhandlers\\gettodoitembyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "Backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\appsettings.json",
+              "RelativeToolTip": "Backend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-23T11:03:07.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T10:35:31.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\TodoEntities\\Entities\\UserEntity.cs",
+              "RelativeDocumentMoniker": "Backend\\BackApp\\TodoApplication\\TodoEntities\\Entities\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\TodoEntities\\Entities\\UserEntity.cs",
+              "RelativeToolTip": "Backend\\BackApp\\TodoApplication\\TodoEntities\\Entities\\UserEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T10:13:41.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\TodoEntities\\Entities\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Backend\\BackApp\\TodoApplication\\TodoEntities\\Entities\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\TodoEntities\\Entities\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Backend\\BackApp\\TodoApplication\\TodoEntities\\Entities\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:23:05.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\TodoEntities\\DTOs\\RegisterItemDto.cs",
+              "RelativeDocumentMoniker": "Backend\\BackApp\\TodoApplication\\TodoEntities\\DTOs\\RegisterItemDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\TodoEntities\\DTOs\\RegisterItemDto.cs",
+              "RelativeToolTip": "Backend\\BackApp\\TodoApplication\\TodoEntities\\DTOs\\RegisterItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T09:04:12.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\Application\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Backend\\BackApp\\TodoApplication\\Application\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\Application\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Backend\\BackApp\\TodoApplication\\Application\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:02:19.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Backend\\BackApp\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\JwtSettings.cs",
+              "RelativeToolTip": "Backend\\BackApp\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:04:50.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\TodoEntities\\DTOs\\LoginItemDto.cs",
+              "RelativeDocumentMoniker": "Backend\\BackApp\\TodoApplication\\TodoEntities\\DTOs\\LoginItemDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\TodoEntities\\DTOs\\LoginItemDto.cs",
+              "RelativeToolTip": "Backend\\BackApp\\TodoApplication\\TodoEntities\\DTOs\\LoginItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T09:03:55.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TodoItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\TodoEntities\\Repositories\\TodoItemRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\BackApp\\TodoApplication\\TodoEntities\\Repositories\\TodoItemRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\TodoEntities\\Repositories\\TodoItemRepository.cs",
+              "RelativeToolTip": "Backend\\BackApp\\TodoApplication\\TodoEntities\\Repositories\\TodoItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:13:36.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PriorityLevel.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\TodoEntities\\Enums\\PriorityLevel.cs",
+              "RelativeDocumentMoniker": "Backend\\BackApp\\TodoApplication\\TodoEntities\\Enums\\PriorityLevel.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\TodoEntities\\Enums\\PriorityLevel.cs",
+              "RelativeToolTip": "Backend\\BackApp\\TodoApplication\\TodoEntities\\Enums\\PriorityLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:19:46.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TodoItemEntity.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\TodoEntities\\Entities\\TodoItemEntity.cs",
+              "RelativeDocumentMoniker": "Backend\\BackApp\\TodoApplication\\TodoEntities\\Entities\\TodoItemEntity.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\TodoEntities\\Entities\\TodoItemEntity.cs",
+              "RelativeToolTip": "Backend\\BackApp\\TodoApplication\\TodoEntities\\Entities\\TodoItemEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:21:54.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITodoItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\TodoEntities\\Repositories\\ITodoItemRepository.cs",
+              "RelativeDocumentMoniker": "Backend\\BackApp\\TodoApplication\\TodoEntities\\Repositories\\ITodoItemRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\TodoEntities\\Repositories\\ITodoItemRepository.cs",
+              "RelativeToolTip": "Backend\\BackApp\\TodoApplication\\TodoEntities\\Repositories\\ITodoItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:13:34.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetAllTodoItemsRequest.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\TodoEntities\\DTOs\\GetAllTodoItemsRequest.cs",
+              "RelativeDocumentMoniker": "Backend\\BackApp\\TodoApplication\\TodoEntities\\DTOs\\GetAllTodoItemsRequest.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\TodoEntities\\DTOs\\GetAllTodoItemsRequest.cs",
+              "RelativeToolTip": "Backend\\BackApp\\TodoApplication\\TodoEntities\\DTOs\\GetAllTodoItemsRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:06:31.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TodoItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\Application\\Controllers\\TodoItemsController.cs",
+              "RelativeDocumentMoniker": "Backend\\BackApp\\TodoApplication\\Application\\Controllers\\TodoItemsController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\Application\\Controllers\\TodoItemsController.cs",
+              "RelativeToolTip": "Backend\\BackApp\\TodoApplication\\Application\\Controllers\\TodoItemsController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:05:03.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetTodoItemByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\Application\\QueryHandlers\\GetTodoItemByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Backend\\BackApp\\TodoApplication\\Application\\QueryHandlers\\GetTodoItemByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\Application\\QueryHandlers\\GetTodoItemByIdQueryHandler.cs",
+              "RelativeToolTip": "Backend\\BackApp\\TodoApplication\\Application\\QueryHandlers\\GetTodoItemByIdQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:03:28.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetAllTodoItemsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\Application\\QueryHandlers\\GetAllTodoItemsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Backend\\BackApp\\TodoApplication\\Application\\QueryHandlers\\GetAllTodoItemsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\TodoItemsApp\\Backend\\BackApp\\TodoApplication\\Application\\QueryHandlers\\GetAllTodoItemsQueryHandler.cs",
+              "RelativeToolTip": "Backend\\BackApp\\TodoApplication\\Application\\QueryHandlers\\GetAllTodoItemsQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:03:25.409Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

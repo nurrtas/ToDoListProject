@@ -25,7 +25,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="BackApp\TodoEntities\Entities\Entities\EntityConfigurations\" />
 	  <Folder Include="Migrations\" />
 	</ItemGroup>
 

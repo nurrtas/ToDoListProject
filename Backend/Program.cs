@@ -2,45 +2,44 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using MediatR;
-using System.Reflection;
-using TodoList.ToDoList.TodoApplication.Models;
 using Microsoft.OpenApi.Models;
-using TodoList.Backend.TodoEntities;
-using TodoList.BackApp.TodoEntities.Entities.Entities1;
-using TodoList.BackApp.TodoEntities.Entities.EntityCobnfigurations;
-using TodoList.BackApp.TodoEntities.Repositories;
-using TodoList.BackApp.TodoEntities.Entities;
+using System.Text;
+using System.Reflection;
+using TodoList.BackApp.TodoApplication.TodoEntities.Entities;
+using TodoList.BackApp;
+using TodoList.BackApp.TodoApplication.TodoEntities.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Dependency Injection
-builder.Services.AddScoped<ITodoItemRepository, TodoItemRepository>();
-
-// ApplicationDbContext
-builder.Services.AddDbContext<TodoList.BackApp.TodoEntities.Entities.Entities1.ApplicationDbContext>(options =>
+builder.Services.AddDbContext<TodoList.BackApp.TodoEntities.Entities.Entities.ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Identity
-builder.Services.AddIdentity<AppUser, IdentityRole>()
-    .AddEntityFrameworkStores<TodoList.BackApp.TodoEntities.Entities.Entities1.ApplicationDbContext>();
+builder.Services.AddIdentity<UserEntity, IdentityRole>()
+    .AddEntityFrameworkStores<TodoList.BackApp.TodoEntities.Entities.Entities.ApplicationDbContext>()
+    .AddDefaultTokenProviders();
 
 builder.Services.Configure<IdentityOptions>(options =>
 {
     options.Password.RequireDigit = true;
     options.Password.RequireLowercase = true;
-    options.Password.RequireNonAlphanumeric = false;
     options.Password.RequireUppercase = true;
+    options.Password.RequireNonAlphanumeric = false;
     options.Password.RequiredLength = 6;
 });
 
-// MediatR
-builder.Services.AddMediatR(cfg =>
-    cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
 
-// JWT Authentication
+builder.Services.AddScoped<ITodoItemRepository, TodoItemRepository>();
+
+builder.Services.AddMediatR(cfg =>
+{
+    cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
+});
+
+
 builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
+
+var jwtSettings = builder.Configuration.GetSection("JwtSettings").Get<JwtSettings>();
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -48,8 +47,6 @@ builder.Services.AddAuthentication(options =>
 })
 .AddJwtBearer(options =>
 {
-    var jwtSettings = builder.Configuration.GetSection("JwtSettings").Get<JwtSettings>();
-
     options.TokenValidationParameters = new TokenValidationParameters
     {
         ValidateIssuer = true,
@@ -62,7 +59,7 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-// CORS
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -73,7 +70,6 @@ builder.Services.AddCors(options =>
     });
 });
 
-// Swagger
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Web API", Version = "v1" });
@@ -85,7 +81,7 @@ builder.Services.AddSwaggerGen(c =>
         Scheme = "bearer",
         BearerFormat = "JWT",
         In = ParameterLocation.Header,
-        Description = "Please enter JWT token"
+        Description = "JWT token'ınızı girin (örnek: Bearer eyJhbGciOi...)"
     });
 
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
@@ -99,27 +95,29 @@ builder.Services.AddSwaggerGen(c =>
                     Id = "Bearer"
                 }
             },
-            new string[] {}
+            Array.Empty<string>()
         }
     });
 });
+
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
 var app = builder.Build();
 
-// Middleware
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "Web API V1");
-    c.RoutePrefix = "";
+    c.RoutePrefix = ""; 
 });
 
 app.UseHttpsRedirection();
 app.UseCors("AllowAll");
+
 app.UseAuthentication();
 app.UseAuthorization();
+
 app.MapControllers();
 app.Run();
