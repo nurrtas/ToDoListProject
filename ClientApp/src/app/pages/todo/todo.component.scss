@@ -1,0 +1,37 @@
+:host {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.todo-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+mat-card {
+  margin-bottom: 1rem;
+}
+
+.todo-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.todo-description {
+  color: gray;
+  font-style: italic;
+}
+
+.todo-status {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #3f51b5;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}

@@ -1,0 +1,34 @@
+<div class="todo-container">
+  <h2>Yapılacaklar Listesi</h2>
+  
+  <div style="text-align: right; margin-bottom: 1rem;">
+  <button mat-raised-button color="accent" routerLink="/add-todo">
+    Yeni Görev Ekle
+  </button>
+</div>
+
+
+  <mat-card *ngFor="let todo of todos">
+    <mat-card-title class="todo-title">
+      {{ todo.title }}
+    </mat-card-title>
+
+    <mat-card-content>
+      <div class="todo-description">
+        {{ todo.description || 'Açıklama yok' }}
+      </div>
+      <div class="todo-status">
+        Durum: <strong>{{ todo.status }}</strong>
+      </div>
+    </mat-card-content>
+
+    <mat-card-actions class="actions">
+      <button mat-flat-button color="primary" (click)="completeTodo(todo)">
+        Tamamla
+      </button>
+      <button mat-stroked-button color="warn" (click)="deleteTodo(todo.id)">
+        Sil
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>

@@ -1,0 +1,21 @@
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 24px;
+  text-align: center;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.register-link {
+  margin-top: 8px;
+  a {
+    cursor: pointer;
+    color: #d81b60;
+    text-decoration: underline;
+  }
+}

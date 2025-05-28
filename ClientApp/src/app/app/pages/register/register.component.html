@@ -1,0 +1,42 @@
+<mat-card class="register-card">
+  <h2>Kayit Ol</h2>
+
+  <div [formGroup]="registerForm">
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Kullanici Adi</mat-label>
+      <input matInput formControlName="userName" />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>E-posta</mat-label>
+      <input matInput type="email" formControlName="email" />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Şifre</mat-label>
+      <input matInput [type]="showPassword ? 'text' : 'password'" formControlName="password" />
+      <button mat-icon-button matSuffix type="button" (click)="togglePasswordVisibility()">
+        <mat-icon>{{ showPassword ? 'visibility_off' : 'visibility' }}</mat-icon>
+      </button>
+    </mat-form-field>
+
+    <button
+      mat-raised-button
+      color="primary"
+      class="full-width"
+      (click)="kayitOl()"
+      [disabled]="registerForm.invalid"
+    >
+      Kayit Ol
+    </button>
+
+    <button
+      mat-button
+      color="accent"
+      class="full-width"
+      (click)="router.navigate(['/login'])"
+    >
+      Giriş Ekranına Dön
+    </button>
+  </div>
+</mat-card>
